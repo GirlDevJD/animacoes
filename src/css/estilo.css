@@ -1,0 +1,35 @@
+body {
+    background-color: pink;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    color: rgb(211, 45, 211);
+    font-size: 40px;
+    padding: 30px;
+}
+
+h2 {
+    color: purple;
+    font-family: 'Press Start 2P';
+
+}
+
+#heart.fadeInFadeOut {
+ 
+    animation: fadeInFadeOut 1s linear infinite;
+}
+
+@keyframes fadeInFadeOut {
+    
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}
